@@ -1,0 +1,23 @@
+body {
+    margin: 0%;
+    padding: 10% 25%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 50vh;
+}
+
+.outterDivs {
+    display: flex;
+    border: 1px solid black;
+    height: 25%;
+}
+
+.innerDivs {
+    border: 1px solid black;
+    width: 25%;
+}
+
