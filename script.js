@@ -11,4 +11,11 @@ for (let i = 0; i < 4; i++) {
     }
 }
 
+const innerDivs = document.querySelectorAll(".innerDivs");
+
+innerDivs.forEach(div => {
+    div.addEventListener("mouseover", event => {
+        event.target.style.backgroundColor = "gray";
+    })
+})
 
