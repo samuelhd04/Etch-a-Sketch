@@ -1,23 +1,39 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0% 5%;
     margin: 0%;
-    padding: 10% 25%;
+    gap: 5%;
+}
+
+.button {
+    background-color: lightblue;
+    border-radius: 15px;
+    width: 50%;
+    height: 5%;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-    height: 50vh;
+    min-width: 50%;
+    min-height: 50%;
 }
 
 .outterDivs {
     display: flex;
     border: 1px solid black;
-    height: 25%;
+    flex: auto;
 }
 
 .innerDivs {
     border: 1px solid black;
-    width: 25%;
+    flex: auto;
 }
 
